@@ -21,18 +21,18 @@ externals:
         https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
     PetBattleTeams/libs/LibPetJournal-2.0:
         https://repos.curseforge.com/wow/libpetjournal-2-0
-    PetBattleTeams/libs/LibPetBreedInfo-1.0: 
+    PetBattleTeams/libs/LibPetBreedInfo-1.0:
         https://github.com/Stanzilla/LibPetBreedInfo-1.0.git
 
 enable-nolib-creation:
     no
 
 move-folders:
-	PetBattleTeams/PetBattleTeams: PetBattleTeams
+    PetBattleTeams/PetBattleTeams: PetBattleTeams
 
 ignore:
     - .gitignore
-	- changelog
-	- README.md
+    - changelog
+    - README.md
     - todo.txt
     - modules\GUI\New folder\
