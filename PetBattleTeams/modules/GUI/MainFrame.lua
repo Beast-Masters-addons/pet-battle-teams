@@ -134,7 +134,7 @@ local function OnMouseWheel(self,delta)
 end
 
 function GUI:CreateMainFrame()
-    local widget = CreateFrame("frame", "PetBattleTeamFrame", UIParent)
+    local widget = CreateFrame("frame", "PetBattleTeamFrame", UIParent, BackdropTemplateMixin and "BackdropTemplate")
 
     widget:SetClampedToScreen(true)
     widget:SetFrameStrata("MEDIUM")
