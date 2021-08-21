@@ -21,6 +21,7 @@ externals:
         url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
     PetBattleTeams/libs/LibPetJournal-2.0:
         url: https://repos.curseforge.com/wow/libpetjournal-2-0
+        type: hg
     PetBattleTeams/libs/LibPetBreedInfo-1.0:
         url: https://github.com/Stanzilla/LibPetBreedInfo-1.0.git
 
