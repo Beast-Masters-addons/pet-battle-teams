@@ -37,7 +37,7 @@
 
 ### Usage:
 
-Click the pet battle icon in the upper right to access the lock and attachment options
-Press the + button to create additional teams
-Right click a team to delete|rename|lock it. There is a confirmation before deleting to prevent accidents.
-Left click a pet in a pet battle teams frame to make that team the active team.
+* Click the pet battle icon in the upper right to access the lock and attachment options
+* Press the + button to create additional teams
+* Right click a team to delete|rename|lock it. There is a confirmation before deleting to prevent accidents.
+* Left click a pet in a pet battle teams frame to make that team the active team.
