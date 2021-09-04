@@ -1,7 +1,7 @@
 # pet-battle-teams
-##Features:
+## Features:
 
-###General:
+### General:
 
 * Create unlimited teams of pets and quickly switch between them in the pet journal.
 * Reliable pet switching even when spammed with requests to change teams.
