@@ -6,6 +6,7 @@
 ## X-Category: Pet Battles
 ## X-Localizations: enUS
 ## SavedVariables: PetBattleTeamsDB, PetBattleTeamsSettings
+## X-WoWI-ID: 26141
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
