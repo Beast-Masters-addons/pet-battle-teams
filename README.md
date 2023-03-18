@@ -41,3 +41,7 @@
 * Press the + button to create additional teams
 * Right click a team to delete|rename|lock it. There is a confirmation before deleting to prevent accidents.
 * Left click a pet in a pet battle teams frame to make that team the active team.
+
+### Other recommended pet battle addons:
+* [BattlePetCount NG](https://github.com/GurliGebis/WoWAddon-BattlePetCountNG): Show how many pets of the encountered species you already own and their quality.
+* [BattlePetQualityCheck](https://addons.wago.io/addons/battlepetqualitycheck): Show if the quality of the encoutered pet is better than the pets you own of the same species.
