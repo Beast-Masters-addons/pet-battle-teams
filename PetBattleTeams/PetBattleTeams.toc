@@ -8,6 +8,7 @@
 ## SavedVariables: PetBattleTeamsDB, PetBattleTeamsSettings
 ## X-WoWI-ID: 26141
 ## X-Wago-ID: j6jzyM6R
+## X-Curse-Project-ID: 839077
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
