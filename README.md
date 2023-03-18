@@ -1,4 +1,4 @@
-# pet-battle-teams
+# PetBattleTeams
 ## Features:
 
 ### General:
