@@ -184,9 +184,11 @@ end
 
 function GUI:ToggleMinimize(enabled)
     if enabled then
-        self.menuButton:SetPoint("CENTER",PetJournal,"TOPRIGHT",-40,-10)
-        self.menuButton:SetParent(PetJournal)
+        self.menuButton:ClearAllPoints()
+        self.menuButton:SetPoint("TOPLEFT", CollectionsJournal, "TOPRIGHT")
+        self.menuButton:SetParent(CollectionsJournal)
     else
+        self.menuButton:ClearAllPoints()
         self.menuButton:SetPoint("CENTER",self.mainFrame,"TOPRIGHT",-10,-10)
         self.menuButton:SetParent(self.mainFrame)
     end

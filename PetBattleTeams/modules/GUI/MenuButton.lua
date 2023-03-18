@@ -4,7 +4,7 @@ local GUI = PetBattleTeams:GetModule("GUI")
 local AUTO_HIDE_DELAY = 12
 
 function GUI:CreateMenuButton()
-    local button = CreateFrame("BUTTON")
+    local button = CreateFrame("BUTTON", "PetBattleTeamsButton")
     local menuFrame = CreateFrame("frame", "PetBattleTeamsMenu", UIParent, "UIDropDownMenuTemplate")
 
 
