@@ -35,7 +35,9 @@ function GUI:CreateReviveButton(name,parent)
     button:SetAttribute("type", "spell")
     button.spellID = HEAL_PET_SPELL
     button:SetAttribute("spell",spellName)
+
     button:SetSize(38,38)
+    button:RegisterForClicks("AnyDown", "AnyUp")
 
     button.Icon = button:CreateTexture(name.."Icon","ARTWORK")
     button.Icon:SetTexture(spellIcon)
