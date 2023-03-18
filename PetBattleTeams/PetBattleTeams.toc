@@ -1,12 +1,13 @@
 ## Interface: 90100
 ## Title: PetBattleTeams
-## Author: Nullberri
+## Author: Nullberri/datagutten
 ## Version: @project-version@
 ## Notes: Create unlimited teams of pets and quickly switch between them in the Pet Journal
 ## X-Category: Pet Battles
 ## X-Localizations: enUS
 ## SavedVariables: PetBattleTeamsDB, PetBattleTeamsSettings
 ## X-WoWI-ID: 26141
+## X-Wago-ID: j6jzyM6R
 
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
