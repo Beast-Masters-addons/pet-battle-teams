@@ -1,5 +1,6 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
 local Config = PetBattleTeams:GetModule("Config","AceConsole-3.0")
+---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
 local AUTO_HIDE_DELAY = 12
 

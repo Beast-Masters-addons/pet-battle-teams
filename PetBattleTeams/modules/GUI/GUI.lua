@@ -9,6 +9,7 @@ Fired when ever the GUI options are changed
 ]]
 
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsGUI
 local GUI = PetBattleTeams:NewModule("GUI")
 local LibPetJournal = LibStub("LibPetJournal-2.0")
 local eventFrame = CreateFrame("frame")

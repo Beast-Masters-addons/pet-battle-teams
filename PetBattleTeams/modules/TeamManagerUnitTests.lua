@@ -52,6 +52,7 @@ end
 
 --/run TeamManagerUnitTests:Run()
 function PetBattleTeams.TeamManagerUnitTests:Run()
+    ---@type PetBattleTeamsTeamManager
     local teamManager = PetBattleTeams:GetModule("TeamManager")
     self:Setup(teamManager)
 

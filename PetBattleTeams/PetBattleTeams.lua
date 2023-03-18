@@ -18,6 +18,7 @@ SLASH_PETBATTLETEAMS1, SLASH_PETBATTLETEAMS2 = '/pbt', '/PetBattleTeams';
 function PetBattleTeams.slashHandler(msg, chatPromptFrame)
     local self = PetBattleTeams
     local GUI = self:GetModule("GUI")
+    ---@type PetBattleTeamsTeamManager
     local TeamManager = self:GetModule("TeamManager")
     msg = string.lower(msg)
     if msg == "lock frame" then

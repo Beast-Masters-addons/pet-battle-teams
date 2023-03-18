@@ -1,5 +1,7 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
+---@type PetBattleTeamsTeamManager
 local TeamManager =  PetBattleTeams:GetModule("TeamManager")
 local ROW_HEIGHT = 55
 local Cursor = PetBattleTeams:GetModule("Cursor")

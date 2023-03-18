@@ -21,6 +21,7 @@ indicates when a new team is selected
 ]]
 
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsTeamManager
 local TeamManager = PetBattleTeams:NewModule("TeamManager")
 local PETS_PER_TEAM = 3
 local START = 1
