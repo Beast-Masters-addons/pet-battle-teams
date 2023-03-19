@@ -91,6 +91,10 @@ function GUI:InitializeGUI()
         local menuButton = GUI:CreateMenuButton()
         self.menuButton =  menuButton
 
+        ---@type PetBattleTeamsCheckbox
+        self.checkbox = PetBattleTeams:GetModule('Checkbox')
+        self.checkbox:Create()
+
         self:ToggleMinimize(self:GetIsMinimized())
 
         self.mainFrame:SetLocked(self:GetLocked())
@@ -188,10 +192,12 @@ function GUI:ToggleMinimize(enabled)
         self.menuButton:ClearAllPoints()
         self.menuButton:SetPoint("TOPLEFT", CollectionsJournal, "TOPRIGHT")
         self.menuButton:SetParent(CollectionsJournal)
+        self.checkbox:uncheck()
     else
         self.menuButton:ClearAllPoints()
         self.menuButton:SetPoint("CENTER",self.mainFrame,"TOPRIGHT",-10,-10)
         self.menuButton:SetParent(self.mainFrame)
+        self.checkbox:check()
     end
     self.mainFrame:SetShown(not enabled)
     self.db.global.minimized = enabled

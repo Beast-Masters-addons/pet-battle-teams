@@ -35,4 +35,5 @@ modules\GUI\PetBandageButton.lua
 modules\GUI\ScrollFrame.lua
 modules\GUI\resizer.lua
 modules\GUI\MenuButton.lua
+modules\GUI\Checkbox.lua
 modules\GUI\MainFrame.lua
