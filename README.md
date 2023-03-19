@@ -45,3 +45,6 @@
 ### Other recommended pet battle addons:
 * [BattlePetCount NG](https://github.com/GurliGebis/WoWAddon-BattlePetCountNG): Show how many pets of the encountered species you already own and their quality.
 * [BattlePetQualityCheck](https://addons.wago.io/addons/battlepetqualitycheck): Show if the quality of the encoutered pet is better than the pets you own of the same species.
+* [PetTracker](https://github.com/Jaliborc/PetTracker): Track available pets in the current zone
+
+This is a continuation of the project [PetBattle Teams](https://www.curseforge.com/wow/addons/pet-battle-teams) by nullberri and Stanzilla
