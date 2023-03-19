@@ -25,8 +25,7 @@ externals:
     PetBattleTeams/libs/LibPetBreedInfo-1.0:
         url: https://github.com/Stanzilla/LibPetBreedInfo-1.0.git
 
-enable-nolib-creation:
-    no
+enable-nolib-creation: yes
 
 move-folders:
     PetBattleTeams/PetBattleTeams: PetBattleTeams

@@ -10,17 +10,11 @@
 ## X-Wago-ID: j6jzyM6R
 ## X-Curse-Project-ID: 839077
 
-libs\LibStub\LibStub.lua
-libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
-libs\AceGUI-3.0\AceGUI-3.0.xml
-libs\AceAddon-3.0\AceAddon-3.0.xml
-libs\AceConfig-3.0\AceConfig-3.0.xml
-libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.xml
-libs\AceDB-3.0\AceDB-3.0.xml
-libs\AceConsole-3.0\AceConsole-3.0.xml
-libs\LibPetBreedInfo-1.0\LibPetBreedInfo-1.0.lua
+#@no-lib-strip@
+libs.xml
+#@end-no-lib-strip@
+
 libs\EmbedHandler-1.0\EmbedHandler-1.0.xml
-libs\LibPetJournal-2.0\LibPetJournal-2.0.lua
 
 PetBattleTeams.lua
 
