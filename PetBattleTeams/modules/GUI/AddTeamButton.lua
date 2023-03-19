@@ -1,5 +1,7 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@type PetBattleTeamsTeamManager
 local TeamManager =  PetBattleTeams:GetModule("TeamManager")
+---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
 
 local function OnClick(self)

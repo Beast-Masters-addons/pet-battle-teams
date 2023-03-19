@@ -1,4 +1,5 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
 
 local function OnEvent(self,event)

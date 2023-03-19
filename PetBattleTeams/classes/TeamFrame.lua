@@ -2,7 +2,9 @@ local PetBattleTeamsFrame = {}
 
 local PETS_PER_TEAM = 3
 local PetBattleTeams =  LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@type PetBattleTeamsTeamManager
 local TeamManager = PetBattleTeams:GetModule("TeamManager")
+---@type PetBattleTeamsCursor
 local Cursor =  PetBattleTeams:GetModule("Cursor")
 local Embed = PetBattleTeams.Embed
 local HEIGHT_WITH_NAME = 55

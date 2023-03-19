@@ -1,5 +1,7 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsTooltip
 local Tooltip = PetBattleTeams:NewModule("Tooltip")
+---@type PetBattleTeamsTeamManager
 local teamManager = PetBattleTeams:GetModule("TeamManager")
 local libPetBreedInfo = LibStub("LibPetBreedInfo-1.0")
 

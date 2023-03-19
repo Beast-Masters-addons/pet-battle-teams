@@ -8,7 +8,9 @@ Operation: "COPY", "SWAP", "MOVE TEAM"
 ]]
 
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsCursor
 local Cursor = PetBattleTeams:NewModule("Cursor")
+---@type PetBattleTeamsTeamManager
 local teamManager = PetBattleTeams:GetModule("TeamManager")
 local MAX_DISTANCE = 400
 local TIMEOUT = 15

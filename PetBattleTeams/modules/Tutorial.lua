@@ -1,4 +1,5 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsTutorials
 local pbtTutorials = PetBattleTeams:NewModule("Tutorials")
 local TutorialsLib = LibStub("CustomTutorials-2.0")
 

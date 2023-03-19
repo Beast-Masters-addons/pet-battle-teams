@@ -1,7 +1,11 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
+---@class PetBattleTeamsConfig
 local Config = PetBattleTeams:NewModule("Config","AceConsole-3.0")
+---@type PetBattleTeamsTeamManager
 local TeamManager = PetBattleTeams:GetModule("TeamManager")
+---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
+---@type PetBattleTeamsTooltip
 local Tooltip = PetBattleTeams:GetModule("Tooltip")
 
 Config.options = {

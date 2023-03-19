@@ -4,6 +4,7 @@ local GUI = PetBattleTeams:GetModule("GUI")
 ---@type PetBattleTeamsTeamManager
 local TeamManager =  PetBattleTeams:GetModule("TeamManager")
 local ROW_HEIGHT = 55
+---@type PetBattleTeamsCursor
 local Cursor = PetBattleTeams:GetModule("Cursor")
 local PetBattleTeamsFrame = PetBattleTeams.PetBattleTeamsFrame
 
