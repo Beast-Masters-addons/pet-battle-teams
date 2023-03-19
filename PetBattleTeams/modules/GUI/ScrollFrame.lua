@@ -75,7 +75,7 @@ local function CreateScollChild()
     team:Show()
 
     self.teamFrames[1] = team
-    --self:SetMinResize(h,w)
+    self:SetResizeBounds(h, 55 * 2 + 150, h, 55 * 11 + 150)
     self:SetSize(h,w)
     self.numToDisplay = 1
     self:SetScript("OnSizeChanged",OnScrollChildSizeChanged)

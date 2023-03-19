@@ -73,7 +73,7 @@ local function SetComponentPoints(self, showSelectedTeam, showControls, showRost
 
     local minSize = (showSelectedTeam and 70 or 0) + (showControls and 45 or 0) + (showRoster and ROW_HEIGHT*2 + 30 or 0)
     minSize = (minSize == 0) and 50 or (minSize + self.resizer:GetHeight())
-    --self:SetMinResize(self:GetWidth(), minSize)
+    self:SetResizeBounds(self:GetWidth(), minSize, self:GetWidth(), ROW_HEIGHT * 11 + 150)
     if self:GetHeight() < minSize then
         self:SetHeight(minSize)
     end
@@ -143,8 +143,7 @@ function GUI:CreateMainFrame()
     widget:SetToplevel(true)
     widget:RegisterForDrag("LeftButton")
     widget:SetSize(165, ROW_HEIGHT * 8 + 166)
-    --widget:SetMaxResize(widget:GetWidth(), ROW_HEIGHT * 11 + 150)
-    --widget:SetMinResize(widget:GetWidth(), ROW_HEIGHT * 2 + 150)
+    widget:SetResizeBounds(widget:GetWidth(), ROW_HEIGHT * 2 + 150, widget:GetWidth(), ROW_HEIGHT * 11 + 150)
     widget:SetMovable(true)
     widget:EnableMouse(true)
 
