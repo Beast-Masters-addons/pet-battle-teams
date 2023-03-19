@@ -1,2 +1,5 @@
 PetBattleTeams/libs/*
 !PetBattleTeams/libs/EmbedHandler-1.0
+.idea
+.release
+*.bak
