@@ -1,4 +1,4 @@
-## Interface: 100005
+## Interface: 100207
 ## Title: PetBattleTeams
 ## Author: Nullberri/datagutten
 ## Version: @project-version@
