@@ -1,6 +1,8 @@
 local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
 ---@type PetBattleTeamsGUI
 local GUI = PetBattleTeams:GetModule("GUI")
+local GetSpellInfo = _G.C_Spell.GetSpellInfo
+local GetSpellCooldown = _G.C_Spell.GetSpellCooldown
 
 -- luacheck: globals PetJournalHealPetButton_OnEnter
 

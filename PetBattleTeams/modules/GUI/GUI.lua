@@ -13,6 +13,7 @@ local PetBattleTeams = LibStub("AceAddon-3.0"):GetAddon("PetBattleTeams")
 local GUI = PetBattleTeams:NewModule("GUI")
 local LibPetJournal = LibStub("LibPetJournal-2.0")
 local eventFrame = CreateFrame("frame")
+local IsAddOnLoaded = _G.C_AddOns.IsAddOnLoaded
 
 -- luacheck: globals PetJournal
 
