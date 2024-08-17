@@ -24,6 +24,8 @@ externals:
         type: hg
     PetBattleTeams/libs/LibPetBreedInfo-1.0:
         url: https://github.com/Stanzilla/LibPetBreedInfo-1.0.git
+    PetBattleTeams/libs/BM-utils:
+        url: https://github.com/Beast-Masters-addons/BM-utils
 
 enable-nolib-creation: yes
 
@@ -36,3 +38,6 @@ ignore:
     - README.md
     - todo.txt
     - modules\GUI\New folder\
+    - Icon.png
+    - Icon.psd
+    - get_libs.sh

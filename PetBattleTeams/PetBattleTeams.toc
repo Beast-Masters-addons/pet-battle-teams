@@ -12,6 +12,7 @@
 
 #@no-lib-strip@
 libs.xml
+libs\BM-utils\compat\EasyMenu.lua
 #@end-no-lib-strip@
 
 libs\EmbedHandler-1.0\EmbedHandler-1.0.xml
